@@ -9,7 +9,8 @@
                  [org.clojure/clojurescript "0.0-2371"]
                  [cljs-http "0.1.18"]
                  [org.clojure/core.async "0.1.346.0-17112a-alpha"]
-                 [enfocus "2.1.0"]]
+                 [enfocus "2.1.0"]
+                 [javax.servlet/servlet-api "2.5"]]
   :plugins [[lein-ring "0.8.13"]
             [lein-cljsbuild "1.0.3"]]
   :ring {:handler chesire-cat.handler/app}
